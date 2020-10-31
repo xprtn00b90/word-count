@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count</title>
+</head>
+<body>
+    <a href={% url 'about' %}>About Us!<a/>
+    <h1>Word Count!</h1>
+    <form action="count">
+        <textarea cols="40" rows="10" name="fulltext"></textarea>
+        <br/>
+        <input type="submit" value="Let's Count!">
+    </form>
+    
+</body>
+</html>
